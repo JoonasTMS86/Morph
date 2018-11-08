@@ -5,9 +5,15 @@
 ##########################
 */
 
-// In order for this game to compile, you must have the SDL libraries which can be downloaded for free
-// in the official SDL website, https://www.libsdl.org/
+/*
+In order for this game to compile, you must have the SDL libraries which can be downloaded for free
+in the official SDL website, https://www.libsdl.org/
 
+I used Visual Studio to create and compile this game. For instructions on how to setup SDL in Visual
+Studio, read the documentation at http://lazyfoo.net/tutorials/SDL/01_hello_SDL/index.php
+For this game I used Windows 7 64-bit and Microsoft Visual Studio 2015.
+
+*/
 #include <SDL.h>
 #include <SDL_mixer.h>
 #include <stdio.h>
